@@ -1,3 +1,8 @@
+/* * {
+ margin: 0;
+ padding: 0;
+} */
+
 main {display: flex;
   	justify-content: space-between;
 }
@@ -13,8 +18,11 @@ header li a {display:inline-block;
 			padding:5px;}
 header li a:hover{background:#666666;}
 
-#contact {width: 20%}
-#experiences {width: 60%}
+#titre{text-align: center;}
+#nom{font-size: 200%;
+	font-weight: bold;}
+#contact {width: 10%}
+#experiences {width: 65%}
 #competencesFormations{width: 20%}
 
 footer{background:#454545;height:90px;}
