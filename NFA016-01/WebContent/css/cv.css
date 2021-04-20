@@ -1,10 +1,10 @@
-/* * {
- margin: 0;
- padding: 0;
-} */
+* {
+ margin: 0.1%;
+ padding: 0.1%;
+} 
 
 main {display: flex;
-  	justify-content: space-between;
+  	/* justify-content: space-between; */
 }
 
 
@@ -21,9 +21,15 @@ header li a:hover{background:#666666;}
 #titre{text-align: center;}
 #nom{font-size: 200%;
 	font-weight: bold;}
-#contact {width: 10%}
-#experiences {width: 65%}
-#competencesFormations{width: 20%}
+#contact {width: 10%;
+}
+#experiences {width: 65%;}
+#competencesFormations{width: 20%;}
+#contact, #experiences, #competencesFormations{
+		padding : 1%; 
+		margin: 1%;
+		border: 1px solid #666666;
+}
 
 footer{background:#454545;height:90px;}
 footer a , li{color:#ffffff;text-decoration:none; }
