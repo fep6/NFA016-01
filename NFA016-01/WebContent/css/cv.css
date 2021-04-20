@@ -1,0 +1,23 @@
+main {display: flex;
+  	/* justify-content: space-between; */
+}
+
+
+header li{display:inline}
+header li a {display:inline-block;
+			width:100px;
+			background:blue;
+			text-align:center;
+			color:white;
+			text-decoration:none;
+			padding:5px;}
+header li a:hover{background:#666666;}
+
+#contact {width: 20%}
+#experiences {width: 60%}
+#competencesFormations{width: 20%}
+
+footer{background:#454545;height:90px;}
+footer a , li{color:#ffffff;text-decoration:none; }
+footer a:hover {color:#a9d0f5; }
+footer ul {width:120px;float:left;margin-left:40px;}
