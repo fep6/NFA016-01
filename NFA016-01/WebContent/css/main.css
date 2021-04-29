@@ -103,12 +103,12 @@ article {
 	background: radial-gradient( red, blue, green, yellow, red 100% );
 }
 #container4c{
+	display: flex;
+	justify-content: center;
     margin-left: 200px;
     margin-right: 200px;
-	display: flex;
 }
 #exercice4c {
-	justify-content: center;
 	width: 550px;
 	height: 550px;
 	background: #E71CDF;
