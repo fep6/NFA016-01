@@ -1,0 +1,17 @@
+h1{text-decoration:underline;}
+.deuz{
+	color: #FF0000;
+}
+#borderRed {
+border-style:double;
+border-color:red;
+border-width: 10px;
+}
+#borderBlue{
+border-style:double;
+border-color:blue;
+border-width: 10px;
+}
+#change{
+	color: #FF00FF;
+}

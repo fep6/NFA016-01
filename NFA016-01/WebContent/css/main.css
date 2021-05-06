@@ -1,3 +1,7 @@
+*{
+	margin : 1%;
+}
+
 body {
 	background: #cccccc;
 }
@@ -115,11 +119,88 @@ article {
 	box-shadow: 10px 10px 40px 20px gray;
 }
 
+/* Exercice 5 session 3*/
+#carte{
+/* 	margin : 10% ;
+	padding : 10%;
+	width:80%;
+	border : solid rgba(170, 50, 220, .6);
+	background-color: white;
+	background-image : url("carte_france.png") ;
+	background-position:center center; */
+	
+	margin : 5% ;
+	padding : 20%;
+	position : block;
+	background-image : url("../images/carte_france.png") ;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: auto auto;
+	background-position:center;	
+}
+/* #france{
+	margin : 5% ;
+	padding : 20%;
+	background-image : url("../images/carte_france.png") ;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: auto auto;
+	background-position:center;
+} */
+.soleil{
+	background-image : url("../images/soleil.png") ;
+}
+.nuageSoleil{
+	position : absolute;
+	background-image : url("../images/soleil.png"),url("../images/nuage.png") ;
+ 	top: -00px;
+	left: 00px; 
+	
+}
+.paris{
+	position : absolute;
+ 	top: -00px;
+	left: 00px; 
+}
 
+.lille{
+	position : absolute;
+ 	top: -16.5em;
+	left: 20em; 
+}
+.strasbourg{
+	position : absolute;
+ 	top: -9em;
+	left: 27em; 
+}
+.brest{
+	position : absolute;
+ 	top: -8.5em;
+	left: -8em; 
+}.a{
+	position : absolute;
+ 	top: -0%;
+	left: 0%; 
+}
+.b{
+	position : absolute;
+ 	top: -0%;
+	left: -0%; 
+}
+.c{
+	position : absolute;
+ 	top: -10%;
+	left: -5.5%; 
+}
 
+#nantes{
+	
+}
+#lemans{
+	
+}
 
-
-
+/* footer */
 footer {
 	background: #454545;
 	height: 90px;
