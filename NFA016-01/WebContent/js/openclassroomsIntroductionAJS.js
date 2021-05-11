@@ -1,4 +1,4 @@
-// Résolution du souci de sélectivité avec la barre de nav (/li)
+// Résolution du souci de sélectivité avec la barre de nav (/ul)
 // https://openclassrooms.com/fr/courses/3504441-introduction-a-jquery/3672326-combinez-tout-ce-que-vous-avez-appris#/id/r-3672631
 
 
