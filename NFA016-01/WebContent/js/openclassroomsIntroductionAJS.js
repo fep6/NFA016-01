@@ -2,11 +2,11 @@
 // https://openclassrooms.com/fr/courses/3504441-introduction-a-jquery/3672326-combinez-tout-ce-que-vous-avez-appris#/id/r-3672631
 
 
-// Commentaires
+// Commentaires et correction
 $(function() {
 	// Déclaration de variables
   var $list, $newItemForm;
-  	// Rappatriement de l'élément html "ul" en $list
+  	// Rappatriement de le l'id "main" en $list
   $list = $("#main");
   	// Rappatriement  de l'id="newItemForm" en $newItemForm du formulaire <form>
   $newItemForm = $('#newItemForm');

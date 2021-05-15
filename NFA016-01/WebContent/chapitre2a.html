@@ -5,7 +5,7 @@
 
 <head>
 <meta charset="utf-8" />
-<title>NFA-016-01</title>
+<title>NFA-016 §2a Structuration d'une page web</title>
 <meta name="description" content="The HTML5 basic page" />
 <meta name="author" content="Arnaud Renard" />
 <!-- 3 d) C'est cette balise qui déclare le fichier css utilisé -->
@@ -21,11 +21,7 @@
 			<h2>Mon voyage en république dominicaine</h2>
 			<nav>
 				<ul>
-					<li><a href='index.html'>Accueil</a></li>
-					<li><a href='blog.html'>Blog</a></li>
-					<li><a href='cv.html'>CV</a></li>
-					<li><a href=exerciceSession2.html>exercice Session 2</a></li>
-					<li><a href=exerciceSession3.html>exercice Session 3</a></li>
+					<li><a href='index.html'>Retour Accueil</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -41,46 +37,56 @@
 				sed, ut mihi videris, non recte iudicas de Catone; aut enim nemo,
 				quod quidem magis credo, aut si quisquam, ille sapiens fuit.
 			</header>
-			<article>
+			<!-- Exercice 1  -->
+			<article style="background-color:#FF1133">
 				<h4>Letalia contigui Isauriae nemo.</h4>
-				Tu autem, Fanni, quod mihi tantum tribui dicis quantum ego nec
-				adgnosco nec postulo, facis amice; sed, ut mihi videris, non recte
+				Sed, ut mihi videris, non recte
 				iudicas de Catone; aut enim nemo, quod quidem magis credo, aut si
 				quisquam, ille sapiens fuit. Quo modo, ut alia omittam, mortem filii
 				tulit! memineram Paulum, videram Galum, sed hi in pueris, Cato in
 				perfecto et spectato viro.
 			</article>
-			<article>
+			<!-- Exercice 1  -->
+			<article style="background-color: #1133FF">
 				<h4>Controversa navem pilatorum ut praerupta.</h4>
 				Tu autem, Fanni, quod mihi tantum tribui dicis quantum ego nec
 				adgnosco nec postulo, facis amice; sed, ut mihi videris, non recte
+				iudicas de Catone; <span style='position: relative; left: 10px; top: -10px; background: #cccccc;'>
+				exemple position relative au texte </span> magis credo, aut si quisquam, Quo modo,
+				ut alia omittam, mortem filii tulit! memineram Paulum, videram
+				Galum, sed hi in pueris, Cato in perfecto et spectato viro.
+			</article>
+			<!-- Exercice 1  -->
+			<article style="background-color:#11FF33">
+				<h4>Ille sapiens fuit..</h4>
+				Tu autem, Fanni, quod mihi tantum tribui dicis quantum ego nec
+				adgnosco nec postulo, facis amice; sed, ut mihi videris, non recte
 				iudicas de Catone; aut enim nemo, quod quidem magis credo, aut si
-				quisquam, ille sapiens fuit. Quo modo, ut alia omittam, mortem filii
-				tulit! memineram Paulum, videram Galum, sed hi in pueris, Cato in
-				perfecto et spectato viro.
+				quisquam,  Quo modo, ut alia omittam, mortem filii
 			</article>
 		</section>
 		<div> 
 			<div style='z-index:3; background:red; position: absolute; width:300px; height: 200px; top:150px; left:75px; right:400px; '>
-			(Exercice2)
+			(Exercice2): position absolue 1
 			</div> 
 			<div style='z-index:2;background-color:blue; position: absolute; width:300px; height: 200px; color:red;  top:100px; left:125px; '>
-			(Exercice2)
+			(Exercice2): position absolue 2
 			</div> 
 			<div style='z-index:1; background-color:green; position: absolute; width:300px; height: 150px; top:50px; left:100px; '>
-			(Exercice2)
+			(Exercice2): position absolue 3
 			</div> 
 			<div style='z-index:1; background-color:#00ff00; position: fixed; width:100px; height: 100px; top:40%; left:47%;  '>
-			(exemple positionnement fixe)
+			(Exercice 3): positionnement fixe 4
 			</div> 
 			<div style='z-index:10; background-color: black; color: white; position: fixed; width:100%; height: 70px; top:0%; left:0%; '>
 			(exemple 3 barre fixe fixe)
 			</div>
-			 
-			<div style='z-index:10; background-color: gray; color: white; position: fixed; width:100%; height: 50px; bottom:0%; left:0%; '>
-			(exercice 4: pied de page fixe)
+<!-- 			<div style='z-index:10; background-color: gray; color: white; position: fixed; width:100%; height: 50px; bottom:0%; left:0%; '>
+			(exercice 4: pied de page fixe) -->
 			</div>
 		</div>
+
+		<hr />
 		<footer>
 			<ul>
 				<li><a href='index.html'>Accueil</a></li>

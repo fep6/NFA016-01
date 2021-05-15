@@ -1,0 +1,46 @@
+/* chapitre2b */
+
+/* exercice 5 */
+
+#bba{
+	margin: 5px auto;
+	padding: 10px 200px;
+	background:#97FF9A;
+	position: absolute;
+	width: 750px;
+	display: none;
+
+	/* top: 150%; left: 50%;  *//* à 50%/50% du parent référent */
+	
+/* 	width: 750px;
+	box-shadow: 10px -10px gray;
+	padding : 5%; */
+}
+
+.maillot {
+	width: 10%;
+	height : 10%;
+}
+.nom{
+	position: relative;
+	top: 70px;
+	right : 80px;
+}
+
+
+
+
+/* exercice 6 */
+
+#exercice6 {
+	border: solid px white;
+	box-shadow: 10px 10px 10px 10px gray;
+	margin : auto;
+	max-width : 70%;
+	
+}
+.flottant {
+	margin : 0.1%;
+	width : 8.12%;
+ 	float: left;
+}
