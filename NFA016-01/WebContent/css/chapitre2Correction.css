@@ -1,0 +1,115 @@
+#b1 {
+	background: #ff0000;
+	height: 100px;
+	width: 120px;
+}
+
+#b2 {
+	background: #00ff00;
+	height: 200px;
+	width: 210px;
+}
+
+#b3 {
+	background: #0000ff;
+	height: 300px;
+	width: 340px;
+}
+
+#b4 {
+	background: #ff0000;
+	height: 150px;
+	width: 120px;
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	z-index: 50;
+}
+
+#b5 {
+	background: green;
+	height: 200px;
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 220px;
+	z-index: 40;
+}
+
+#b6 {
+	background: #0000ff;
+	height: 160px;
+	width: 150px;
+	position: absolute;
+	top: 100px;
+	left: 240px;
+	z-index: 45;
+}
+
+#b7 {
+	background: #ff0000;
+	height: 20px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 50;
+}
+
+/* execice 4 */
+
+#b8 {
+	background: blue;
+	height: 450px;
+	width: 30px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 50;
+}
+
+/* Exercice 5 */
+.exo5 {
+	position: relative;
+	background: #99ff99;
+	width: 540px;
+	height: 380px;
+}
+
+.exo5 div {
+	position: absolute;
+	text-align: center;
+}
+
+#bb2 div {
+	background: #00ff00;
+}
+
+/* Exercice 6  */
+.exo6 {
+	float: left;
+	margin: 2px;
+	width: 50px;
+}
+
+/* Exercice 7 */
+
+body>#exo7 {
+	margin: 200px auto;
+	background: #999999;
+	height: 200px;
+	max-width: 600px;
+	overflow: hidden;
+}
+
+#exo7>div {
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	float: right;
+	text-align: justify;
+	overflow: hidden;
+	padding: 5px;
+	color: white;
+	margin-left: 10px;
+}

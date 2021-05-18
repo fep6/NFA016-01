@@ -33,7 +33,7 @@
 /* exercice 6 */
 
 #exercice6 {
-	border: solid px white;
+	border: solid 1px white;
 	box-shadow: 10px 10px 10px 10px gray;
 	margin : auto;
 	max-width : 70%;
@@ -44,3 +44,59 @@
 	width : 8.12%;
  	float: left;
 }
+
+
+/* exercice 7 */
+
+
+#ex7 {
+	border: solid 1px black;
+ 	height: 250px;
+	max-width : 600px;
+	margin : 200px auto;
+	box-sizing:border-box;
+	height: 200px; 
+}
+
+#elementGauche {
+ 	background : #cccccc;
+	margin : 10px 0px 10px 10px;
+	padding : 10px;
+ 	max-width : 300px; 
+ 	float: left;
+	
+}
+
+#elementDroit {
+ 	float: left;
+	color : white;
+	background : red;
+	padding : 10px;
+	margin : 10px 10px 10px 0px;
+	width : 200px;
+	}
+
+/* .elementEx7{
+ 	float: left;
+	max-width : 600px;
+	margin : 200px auto;
+	font:italic;
+	
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
